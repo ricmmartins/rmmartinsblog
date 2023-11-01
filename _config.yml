@@ -65,7 +65,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/ricmmartins"
     - label: "Publications"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-link"
       url: "https://github.com/ricmmartins/activitylog"
     - label: "Blog in PT-BR"
       icon: "fas fa-fw fa-link"
