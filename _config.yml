@@ -59,10 +59,8 @@ author:
   name   : "Ricardo Martins"
   avatar : "/assets/images/bio-photo.png"
   bio    : "Cloud and Tech evangelist. Architect of scalable, and  fault-tolerant cloud systems. Mentor and educator."
+  location: "Winter Garden, FL"
   links:
-    - label: "Location"
-      icon: "fab fa-fw fa-location"
-      url: "Winter Garden, FL"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/ricmmartins"
