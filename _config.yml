@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Hello, I'm Ricardo!
-email:
+subtitle: Study. Build. Document.
+email: rmmartins@outlook.com
 description: Do things, write about it. We grow when we share!
 twitter_username: ricmmartins
 github_username: ricmmartins
