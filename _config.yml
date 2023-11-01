@@ -60,6 +60,9 @@ author:
   avatar : "/assets/images/bio-photo.png"
   bio    : "Cloud and Tech evangelist. Architect of scalable, and  fault-tolerant cloud systems. Mentor and educator."
   links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/ricmmartins"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://ricardomartins.com.br"
