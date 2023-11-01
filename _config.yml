@@ -64,12 +64,6 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/ricmmartins"
-    - label: "Publications"
-      icon: "fas fa-fw fa-link"
-      url: "https://github.com/ricmmartins/activitylog"
-    - label: "Blog in PT-BR"
-      icon: "fas fa-fw fa-link"
-      url: "https://ricardomartins.com.br"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ricmmartins"
@@ -79,6 +73,13 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/ricardommartins"
+    - label: "Publications"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/ricmmartins/activitylog"
+    - label: "Blog in PT-BR"
+      icon: "fas fa-fw fa-link"
+      url: "https://ricardomartins.com.br"
+
 
 footer:
 #  links:
