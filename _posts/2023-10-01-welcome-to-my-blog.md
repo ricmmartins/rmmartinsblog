@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my Blog!"
+title: "Welcome to my blog!"
 date: 2023-10-01T18:10:00-00:00
 categories:
   - blog
