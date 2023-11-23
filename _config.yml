@@ -22,6 +22,7 @@ github_username: ricmmartins
 linkedin: ricmmartins
 minimal_mistakes_skin: "air"
 search: true
+show_date: true
 
 # Build settings
 markdown: kramdown
