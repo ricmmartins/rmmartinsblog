@@ -33,7 +33,11 @@ In short, Ricardo is a IT professional with over 20 years of experience. He has 
 * Infrastructure as code
 * Content development
 
-He is also passionate about communities, technical presentations, and is an evangelist for the DevOps culture. He believes that this is the path that everyone from IT Infrastructure should follow, being closer to software development, not necessarily as a developer, but as someone from the infrastructure who understands what a developer really needs and has the ability to deliver it in a simple, autonomous, and fast way.
+He is an infrastructure engineer who 11 years ago made a made a significant shift from traditional systems administrator roles to the dynamic world of cloud and DevOps.
+
+Like many sysadmins without a background in programming, I found myself navigating the challenging transition from basic shell scripting to mastering infrastructure as code and complex pipelines. This journey wasn't just about acquiring new skills; it was about embracing a new mindset. I became a passionate advocate for the DevOps culture, recognizing it as the essential path for modern infrastructure engineers.
+
+My experience has taught me the importance of bridging the gap between infrastructure and software development. It's not just about being a developer; it's about understanding developers' needs and delivering solutions that are simple, autonomous, and efficient.
 
 ### Career overview
 
