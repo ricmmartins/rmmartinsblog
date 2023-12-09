@@ -40,6 +40,8 @@ To get started with OpenShift Local, download the crc tool from the [Red Hat Con
 4. Access OpenShift Console:
 Retrieve the console URL and login details: `crc console --credentials`.
 
+![](/assets/images/openshiftlocal.png)
+
 ### Step 2: Install the OpenShift CLI (oc)
 
 If you haven't already installed the OpenShift CLI, download and install it from the [Red Hat Console](https://console.redhat.com/openshift/downloads#tool-oc).
