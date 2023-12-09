@@ -101,6 +101,8 @@ oc get route/aro-demo-dryrun
 
 Visit the URL in your browser to view your PHP application.
 
+![](/assets/images/phpapp.png)
+
 ### Conclusion
 
 Deploying applications on OpenShift doesn't have to be complicated. Using the oc CLI, you can efficiently deploy and manage applications directly from source code repositories like GitHub. This approach offers a powerful and flexible way to work with OpenShift, making it an excellent tool for developers at all levels.
