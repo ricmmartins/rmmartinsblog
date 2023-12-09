@@ -7,8 +7,6 @@ tags:
 
 ## Introduction
 
-## Introduction
-
 OpenShift, developed by Red Hat, extends Kubernetes to provide a more robust platform for deploying and managing containerized applications in a complete application platform. It integrates the core features of Kubernetes with additional tools and services to enhance developer productivity and operational efficiency. This guide aims to introduce beginners to deploying applications on OpenShift Local, a streamlined method to run OpenShift clusters locally for development and testing.
 
 Using a local OpenShift environment, offers several benefits, especially for developers who are new to OpenShift or Kubernetes:
@@ -64,7 +62,19 @@ Authenticate to your OpenShift cluster using the `oc` CLI,  this will allow you 
 ```bash
 oc login -u developer -p developer
 ```
+Expected output:
 
+```bash
+rmmartins@jarvis ~ oc login -u developer -p developer
+
+Connecting to the OpenShift cluster
+
+Login successful.
+
+You don't have any projects. You can try to create a new project, by running
+
+    oc create project <projectname>
+```
 ### Step 4: Create a New Project
 
 A project in OpenShift is akin to a Kubernetes namespace but with additional management features. It's a logical grouping that helps in resource organization, isolation, and multi-tenancy. In OpenShift, a project adds an extra layer of security and user management, allowing for more granular control over who can access what resources.
