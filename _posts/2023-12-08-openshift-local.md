@@ -19,7 +19,7 @@ Several methods for setting up OpenShift locally include:
 
 1. **[OpenShift Local](https://developers.redhat.com/products/openshift-local/overview)**: This is the new name for CodeReady Containers. OpenShift Local is an official Red Hat solution to run OpenShift 4.x locally. It provides a straightforward way to create a single-node OpenShift 4 cluster.
 2. **[MiniShift](https://github.com/minishift/minishift)**: An older tool compared to CodeReady Containers. MiniShift was commonly used for running a single-node OpenShift cluster. It runs on top of a virtual machine and is suitable for development and testing purposes. MiniShift supports OpenShift 3.x versions.
-3 **[OKD](https://www.okd.io/)**: OKD is the Community Distribution of Kubernetes that powers Red Hat OpenShift. It offers more flexibility and can be used to set up a more extensive development environment than CodeReady Containers or MiniShift. However, setting up an OKD cluster is generally more complex.
+3. **[OKD](https://www.okd.io/)**: OKD is the Community Distribution of Kubernetes that powers Red Hat OpenShift. It offers more flexibility and can be used to set up a more extensive development environment than CodeReady Containers or MiniShift. However, setting up an OKD cluster is generally more complex.
 4. **Containerized Development Environments**: Some developers choose to use containerized development environments that mimic OpenShift's behavior. Tools like [Docker](https://www.docker.com/) and [Podman](https://podman.io/) can be used to run OpenShift components in containers. This approach requires more manual setup and configuration.
 
 Each method has its benefits, depending on your project needs and system capabilities. In this post I'll cover the usage of OpenShift Local.
