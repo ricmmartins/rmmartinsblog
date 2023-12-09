@@ -31,12 +31,83 @@ To get started with OpenShift Local, download the crc tool from the [Red Hat Con
 ### Step 1: Start Your Local OpenShift Cluster
 
 - Download OpenShift Local: Visit the [OpenShift Local download page](https://cloud.redhat.com/openshift/install/crc/installer-provisioned) and download the version for your OS.
+
 - Install CodeReady Containers:
   - Extract the downloaded file.
   - Run the setup command: `crc setup`.
+
+Expected output:
+
+```bash
+rmmartins@jarvis ~ crc setup
+INFO Using bundle path /Users/rmmartins/.crc/cache/crc_vfkit_4.14.3_arm64.crcbundle
+INFO Checking if running as non-root
+INFO Checking if crc-admin-helper executable is cached
+INFO Checking if running on a supported CPU architecture
+INFO Checking if crc executable symlink exists
+INFO Checking minimum RAM requirements
+INFO Checking if running emulated on Apple silicon
+INFO Checking if vfkit is installed
+INFO Checking if CRC bundle is extracted in '$HOME/.crc'
+INFO Checking if /Users/rmmartins/.crc/cache/crc_vfkit_4.14.3_arm64.crcbundle exists
+INFO Checking if old launchd config for tray and/or daemon exists
+INFO Checking if crc daemon plist file is present and loaded
+Your system is correctly setup for using CRC. Use 'crc start' to start the instance
+```
+ 
 - Start the OpenShift Cluster:
   - Initialize the cluster: `crc start`.
   - This process may take several minutes.
+
+Expected output:
+
+```bash
+rmmartins@jarvis ~ crc start
+INFO Using bundle path /Users/rmmartins/•crc/cache/crc_vtk1t_4.14.3_arm64. crcbundle
+INFO Checking if running as non-root
+INFO Checking if crc-admin-helper executable is cached
+INFO Checking if running on a supported CPU architecture
+INFO Checking if crc executable symlink exists
+INFO Checking minimum RAM requirements
+INFO Checking if running emulated on Apple silicon
+INFO Checking if vfkit is installed
+INFO Checking if old launchd config for tray and/or daemon exists
+INFO Checking if crc daemon plist file is present and loaded
+INFO Loading bundle: crc_vfkit_4.14.3_arm64.. • INFO Starting CRC VM for openshift 4.14.3...
+INFO CRC instance is running with IP 127.0.0.1
+INFO CRC VM is running
+INFO Updating authorized keys...
+INFO Configuring shared directories
+INFO Check internal and public DNS query...
+INFO Check DNS query from host...
+INFO Verifying validity of the kubelet certificates...
+INFO Starting kubelet service
+INFO Waiting for kube-apiserver availability... [takes around 2min]
+INFO Waiting until the user's pull secret is written to the instance disk...
+INFO Starting openshift instance... [waiting for the cluster to stabilize]
+INFO Operator network is progressing
+INFO 4 operators are progressing: console, image-registry, ingress, network INFO 2 operators are progressing: image-registry, ingress
+INFO Operator image-registry is progressing
+INFO Operator image-registry is progressing
+INFO Operator image-registry is progressing
+INFO All operators are available. Ensuring stability...
+INFO Operators are stable (2/3)...
+INFO Operators are stable (3/3)...
+INFO Adding crc-admin and crc-developer contexts to kubeconfig...
+Started the OpenShift cluster.
+The server is accessible via web console at:
+https://console-openshift-console.apps-crc.testing
+Log in as administrator:
+Username: kubeadmin
+Password: PNRGf-HT4jt-tyWvb-RdHad
+Log in as user:
+Username: developer
+Password: developer
+Use the 'oc' command line interface:
+$ eval $(crc oc-env)
+$ oc login -u developer https://api.crc. testing:6443
+```
+  
 - Access OpenShift Console:
   - Retrieve the console URL and login details: `crc console --credentials`.
 
