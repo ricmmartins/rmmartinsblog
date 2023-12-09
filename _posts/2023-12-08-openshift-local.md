@@ -42,6 +42,15 @@ To get started with OpenShift Local, download the crc tool from the [Red Hat Con
 - Access OpenShift Console:
   - Retrieve the console URL and login details: `crc console --credentials`.
 
+ Expected output:
+
+ ```bash
+rmmartins@jarvis ~ сгс console --credentials
+To login as a regular user, run 'oc login -u developer -p developer https://api.crc. testing:6443'.
+To login as an admin,
+login -u kubeadmin -p PNRGf-HT4jt-tyWvb-RdHqd https://api.crc.testing:6443'
+```
+
 ![](/assets/images/openshiftlocal.png)
 
 ### Step 2: Install the OpenShift CLI (oc)
@@ -64,6 +73,17 @@ A project in OpenShift is akin to a Kubernetes namespace but with additional man
 oc new-project my-php-project
 ```
 
+Expected output:
+
+```bash
+rmmartins@jarvis ~ oc new-project my-php-project
+Now using project "my-php-project" on server "https://api.crc.testing:6443".
+You can add applications to this project with the 'new-app' command. For example, try:
+oc new-app rails-postgresql-example
+to build a new example application in Ruby. Or use kubectl to deploy a simple Kubernetes application:
+kubectl create deployment hello-node --image=k8s.gcr.io/e2e-test-images/agnhost:2.33 -- /agnhost serve-hostname
+```
+
 This command creates a new project where all the subsequent resources related to the PHP application will be organized.
 
 ### Step 5: Deploy the Application
@@ -78,6 +98,30 @@ This command analyzes the repository and creates appropriate OpenShift resources
 oc new-app https://github.com/ricmmartins/aro-demo-dryrun.git
 ```
 
+Expected output:
+
+```bash
+rmmartins@jarvis ~ oc new-app https://github.com/ricmmartins/aro-demo-dryrun.git
+--> Found image aelcee7 (5 weeks old) in image stream "openshift/php" under tag "8.0-ubi8" for "php"
+Apache 2.4 with PHP 8.0
+~ - - - - - - - - - - = - - - - = - = - = = =
+PHP 8.0 available as container is a base platform for building and running various PHP 8.0 applications and frameworks. PHP is an HTML-embedded scripting language. PHP attempts to make it easy for developers to write dynamically generated web pages. PHP also offers built-in database integration for several commercial and non-commercia \ database management systems, so writing a database-enabled webpage with PHP is fairly simple. The most common use of PHP coding is probably as a replacement for CGI scripts.
+
+Tags: builder, php, php80, php-80
+* The source repository appears to match: php
+* A source build using source code from https://github.com/ricmmartins/aro-demo-dryrun.git will be created
+* The resulting image will be pushed to image stream tag "aro-demo-dryrun: latest"
+* Use 'oc start-build' to trigger a new build
+--> Creating resources imagestream. image. openshift.io "aro-demo-dryrun" created
+buildconfig.build.openshift.io "aro-demo-dryrun" created deployment. apps "aro-demo-dryrun" created
+service "aro-demo-dryrun" created
+- -> Success
+Build scheduled, use 'oc logs f buildconfig/aro-demo-dryrun' to track its progress.
+Application is not exposed. You can expose services to the outside world by executing one or more of the commands below:
+' ос expose service/aro-demo-dryrun'
+Run 'ос status' to view your app.
+```
+
 ### Step 6: Monitor the Deployment
 
 To monitor the deployment process, use:
@@ -87,12 +131,34 @@ oc status
 ```
 This command provides real-time status updates about the deployment process, helping you identify and troubleshoot any issues.
 
+Expected output:
+
+```bash
+rmmartins@jarvis ~ oc status
+Warning: apps.openshift.io/v1 DeploymentConfig is deprecated in v4.14+, unavailable in v4.10000+
+In project my-php-project on server https://api.crc.testing:6443
+
+svc/aro-demo-dryrun - 10.217.4.227 ports 8080, 8443 deployment/aro-demo-dryrun deploys istag/aro-demo-dryrun:latest <-
+bc/aro-demo-dryrun source builds https://github.com/ricmmartins/aro-demo-dryrun.git on openshift/php:8.0-ubi8
+deployment #2 running for 25 seconds - 1 pod
+deployment #1 deployed 43 seconds ago
+
+1 info identified, use 'oc status - suggest' to see details.
+```
+
 ### Step 7: Expose Your Application
 
 In OpenShift, a 'route' is a powerful concept that exposes a service to an external host name. Unlike a regular Kubernetes service, which typically only allows internal cluster access, a route makes your application accessible from outside the OpenShift cluster.
 
 ```bash
 oc expose svc/aro-demo-dryrun
+```
+
+Expected output
+
+```bash
+rmmartins@jarvis ~ ос expose svc/aro-demo-dryrun
+route. route.openshift.io/aro-demo-dryrun exposed
 ```
 
 This command creates a route for your service, allowing users to access the PHP application through a publicly available URL.
@@ -103,6 +169,14 @@ Use `oc get route` to find the URL of your application:
 
 ```bash
 oc get route/aro-demo-dryrun
+```
+
+Expected output
+
+```bash
+rmmartins@jarvis ~ 
+NAME                    HOST /PORT                                        PATH     SERVICES          PORT      TERMINATION    WILDCARD
+aro-demo-dryrun         aro-demo-dryrun-my-php-project.apps-crc.testing            aro-demo-dryrun   8080- tcp                None
 ```
 
 Visit the URL in your browser to view your PHP application.
