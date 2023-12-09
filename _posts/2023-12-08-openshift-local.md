@@ -174,7 +174,7 @@ oc get route/aro-demo-dryrun
 Expected output
 
 ```bash
-rmmartins@jarvis ~ 
+rmmartins@jarvis ~ oc get route/aro-demo-dryrun
 NAME                    HOST /PORT                                        PATH     SERVICES          PORT      TERMINATION    WILDCARD
 aro-demo-dryrun         aro-demo-dryrun-my-php-project.apps-crc.testing            aro-demo-dryrun   8080- tcp                None
 ```
