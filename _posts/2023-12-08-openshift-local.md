@@ -1,5 +1,5 @@
 ---
-title: "Deploying a PHP Application on Local OpenShift: A Beginner's Guide"
+title: "Deploying an application on OpenShift Local: A Beginner's Guide"
 date: 2023-12-08T11:00:00-00:00
 tags:
   - openshift
