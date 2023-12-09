@@ -32,13 +32,13 @@ To get started with OpenShift Local, download the crc tool from the [Red Hat Con
 
 1. Download OpenShift Local: Visit the [OpenShift Local download page](https://cloud.redhat.com/openshift/install/crc/installer-provisioned) and download the version for your OS.
 2. Install CodeReady Containers:
-- Extract the downloaded file.
-- Run the setup command: `crc setup`.
+  - Extract the downloaded file.
+  - Run the setup command: `crc setup`.
 3. Start the OpenShift Cluster:
-- Initialize the cluster: `crc start`.
-- This process may take several minutes.
+  - Initialize the cluster: `crc start`.
+  - This process may take several minutes.
 4. Access OpenShift Console:
-Retrieve the console URL and login details: `crc console --credentials`.
+  - Retrieve the console URL and login details: `crc console --credentials`.
 
 ![](/assets/images/openshiftlocal.png)
 
