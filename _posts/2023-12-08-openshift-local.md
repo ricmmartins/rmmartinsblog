@@ -7,7 +7,9 @@ tags:
 
 ## Introduction
 
-OpenShift, the Red Hat's application platform, offers a robust environment for deploying and managing containerized applications. 
+## Introduction
+
+OpenShift, developed by Red Hat, extends Kubernetes to provide a more robust platform for deploying and managing containerized applications in a complete application platform. It integrates the core features of Kubernetes with additional tools and services to enhance developer productivity and operational efficiency. This guide aims to introduce beginners to deploying applications on OpenShift Local, a streamlined method to run OpenShift clusters locally for development and testing.
 
 Using a local OpenShift environment, offers several benefits, especially for developers who are new to OpenShift or Kubernetes:
 
@@ -56,11 +58,13 @@ oc login -u developer -p developer
 
 ### Step 4: Create a New Project
 
-In OpenShift, a project is a Kubernetes namespace with additional annotations. It's a way to organize and isolate your resources and work.  It's a way to group resources in a logical manner.
+A project in OpenShift is akin to a Kubernetes namespace but with additional management features. It's a logical grouping that helps in resource organization, isolation, and multi-tenancy. In OpenShift, a project adds an extra layer of security and user management, allowing for more granular control over who can access what resources.
 
 ```bash
 oc new-project my-php-project
 ```
+
+This command creates a new project where all the subsequent resources related to the PHP application will be organized.
 
 ### Step 5: Deploy the Application
 
@@ -85,11 +89,13 @@ This command provides real-time status updates about the deployment process, hel
 
 ### Step 7: Expose Your Application
 
-After the deployment, expose your application to make it accessible outside the OpenShift cluster. 
+In OpenShift, a 'route' is a powerful concept that exposes a service to an external host name. Unlike a regular Kubernetes service, which typically only allows internal cluster access, a route makes your application accessible from outside the OpenShift cluster.
 
 ```bash
 oc expose svc/aro-demo-dryrun
 ```
+
+This command creates a route for your service, allowing users to access the PHP application through a publicly available URL.
 
 ### Step 8: Access the Application
 
@@ -105,4 +111,4 @@ Visit the URL in your browser to view your PHP application.
 
 ### Conclusion
 
-Deploying applications on OpenShift doesn't have to be complicated. Using the oc CLI, you can efficiently deploy and manage applications directly from source code repositories like GitHub. This approach offers a powerful and flexible way to work with OpenShift, making it an excellent tool for developers at all levels.
+Deploying an application on OpenShift Local is a beginner-friendly way to delve into the world of Kubernetes and container orchestration. This hands-on experience lays a solid foundation for more advanced OpenShift concepts and practices. As developers become more comfortable with OpenShift, they can explore its full potential in cloud environments, scaling, and managing complex, containerized applications.
