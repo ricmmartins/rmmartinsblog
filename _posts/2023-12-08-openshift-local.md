@@ -63,7 +63,7 @@ Expected output:
 
 ```bash
 rmmartins@jarvis ~ crc start
-INFO Using bundle path /Users/rmmartins/•crc/cache/crc_vtk1t_4.14.3_arm64. crcbundle
+INFO Using bundle path /Users/rmmartins/crc/cache/crc_vtk1t_4.14.3_arm64. crcbundle
 INFO Checking if running as non-root
 INFO Checking if crc-admin-helper executable is cached
 INFO Checking if running on a supported CPU architecture
