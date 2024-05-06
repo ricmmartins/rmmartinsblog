@@ -1,3 +1,12 @@
+---
+title: "Introduction to AI and Comparing OpenAI with Azure OpenAI"
+date: 2024-05-06T11:00:00-00:00
+tags:
+  - ai
+  - aoai
+---
+
+
 # Introduction to AI and Comparing OpenAI with Azure OpenAI
 
 As I embark on my journey of learning about artificial intelligence (AI), I am discovering the fascinating world of large language models (LLMs) and their applications in various technologies. In this article, I aim to share my newfound knowledge and insights with others who are also beginning their journey in AI. We will explore OpenAI, one of the leading organizations in AI research and development, and compare its offerings with Microsoft's Azure OpenAI service.
