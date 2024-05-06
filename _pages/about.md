@@ -41,7 +41,9 @@ My experience has taught me the importance of bridging the gap between infrastru
 
 ### Career overview
 
-- **January 2023 - Present:** Senior Managed OpenShift Black Belt at Red Hat, where he helps customers with the implementation and use of Managed OpenShift in public clouds (Azure, AWS, and GCP). He also collaborates with product and SRE teams to document, test, and improve managed services offerings. (Winter Garden, FL, USA)
+- **April 2024 - Present:** Principal Cloud Solution Archtiect at Microsoft, helping digital native customers to drive innovation using Azure. (Winter Garden, FL, USA)
+
+- **January 2023 - March 2024:** Senior Managed OpenShift Black Belt at Red Hat, where he helps customers with the implementation and use of Managed OpenShift in public clouds (Azure, AWS, and GCP). He also collaborates with product and SRE teams to document, test, and improve managed services offerings. (Winter Garden, FL, USA)
 
 - **December 2019 - January 2023:** Senior Customer Engineer on the Azure Infrastructure FastTrack team at Microsoft, where he accelerated and reduced the risks of large-scale Azure deployments, while also collaborating with product teams to improve Azure. He helped Microsoft customers create and deploy solutions in Azure in a quick and reliable way, providing personalized guidance. (Winter Garden, FL, USA)
 
@@ -55,8 +57,8 @@ My experience has taught me the importance of bridging the gap between infrastru
 ### Education
 
 * Incomplete Master's degree in Electronic Engineering (Computer Networks and Distributed Systems) from "Universidade Estadual do Rio de Janeiro)
-* BTech degree in Computer Networking from "Faculdade de Tecnologia Senac/RJ"
-* Technical degree in Clectronics from "Escola Técnica Estadual Henrique Lage"
+* Associate Degree in Computer Networking from "Faculdade de Tecnologia Senac/RJ"
+* Technical Degree in Electronics from "Escola Técnica Estadual Henrique Lage"
 
 ### Active Professional Certifications
 
