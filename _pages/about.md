@@ -41,7 +41,7 @@ My experience has taught me the importance of bridging the gap between infrastru
 
 ### Career overview
 
-- **April 2024 - Present:** Principal Cloud Solution Archtiect at Microsoft, helping digital native customers to drive innovation using Azure. (Winter Garden, FL, USA)
+- **April 2024 - Present:** Principal Cloud Solution Architect at Microsoft, helping digital native customers to drive innovation using Azure. (Winter Garden, FL, USA)
 
 - **January 2023 - March 2024:** Senior Managed OpenShift Black Belt at Red Hat, where he helps customers with the implementation and use of Managed OpenShift in public clouds (Azure, AWS, and GCP). He also collaborates with product and SRE teams to document, test, and improve managed services offerings. (Winter Garden, FL, USA)
 
