@@ -40,7 +40,7 @@ AI is enhancing the retail experience for both businesses and consumers:
 
 - **Personalization**: AI-driven recommendation engines analyze customer data to provide personalized product suggestions, enhancing customer satisfaction and increasing sales.
 - **Inventory Management**: AI can predict demand patterns and optimize inventory levels, reducing overstocking and stockouts and improving supply chain efficiency.
-- **Customer Engagement**: I chatbots offer customer support around the clock, answering questions and resolving issues quickly, leading to higher customer satisfaction.
+- **Customer Engagement**: AI chatbots offer customer support around the clock, answering questions and resolving issues quickly, leading to higher customer satisfaction.
 
 ## AI in Cybersecurity
 
