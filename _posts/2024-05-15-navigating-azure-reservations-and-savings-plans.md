@@ -21,7 +21,7 @@ Azure Reservations provide businesses the opportunity to commit to one-year or t
 - **Billing Discount**: The billing discount is seamlessly applied to matching resources post-purchase, ensuring immediate cost benefits.
 - **Automatic Application**: Once acquired, the discount automatically integrates with corresponding resources, streamlining management.
 
-### Disadvantages:
+### Drawbacks:
 - **Limited Flexibility**: Azure Reservations are optimized for stable and predictable workloads. Dynamic or evolving usage patterns may not fully leverage the benefits.
 - **Resource Specificity**: Reservations are tied to specific compute instance families and regions, limiting adaptability.
 
@@ -40,7 +40,7 @@ Azure Savings Plans offer a more flexible approach to cost savings, catering to 
 - **Flexible Savings**: Savings Plans extend benefits across a wide spectrum of compute resources, providing versatility in cost optimization.
 - **Global Application**: Savings Plans apply globally, accommodating diverse workloads across different regions and instance families.
 
-### Disadvantages:
+### Drawbacks:
 - **Limited Scope**: Savings Plans are restricted to compute costs, excluding other expenses like storage, network, and licensing.
 - **Non-Cancellable Commitment**: Unlike reservations, Savings Plans purchases are final, lacking flexibility for cancellation or exchange. ([Canceling Azure Savings Plans](https://learn.microsoft.com/en-us/azure/cost-management-billing/savings-plan/cancel-savings-plan))
 
