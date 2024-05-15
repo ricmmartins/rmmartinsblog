@@ -10,7 +10,7 @@ tags:
 ## Introduction:
 In the realm of cloud computing, optimizing costs is paramount for businesses leveraging Microsoft Azure. Azure offers two primary cost-saving mechanisms: [Azure Reservations](https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/save-compute-costs-reservations) and [Azure Savings Plans](https://learn.microsoft.com/en-us/azure/cost-management-billing/savings-plan/decide-between-savings-plan-reservation). Both options come with distinct advantages, disadvantages, and usage scenarios. In this comprehensive guide, we'll explore these features, penalties, and ideal use cases to empower you in making informed decisions tailored to your business needs.
 
-<img src="/assets/images/cloud-costs.jpeg" width="50%" height="50%">
+<img src="/assets/images/cloud-costs.jpeg" style="display: block; margin-left: auto; margin-right: auto; width="50%" height="50%"">
 
 ## Understanding Azure Reservations:
 
