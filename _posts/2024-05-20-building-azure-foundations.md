@@ -110,7 +110,7 @@ Ready to embark on your Azure adventure? Here's what you can do:
 1. **[Create an Azure Subscription](https://azure.microsoft.com/en-us/free/)**: Sign up for a free Azure account and create your first subscription.
 2. **[Explore Azure Services](https://azure.microsoft.com/en-us/products/)**: Dive into the vast library of Azure services to discover solutions that match your specific needs.
 3. **[Master Entra ID](https://learn.microsoft.com/en-us/training/paths/manage-identity-and-access/)**: Learn how to configure Entra ID to manage user access and secure your applications.
-4. **Plan for the Future**: As your company grows, consider exploring Azure Enterprise Scale Landing Zones for a more robust infrastructure.
+4. **[Plan for the Future](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/implementation)**: As your company grows, consider exploring Azure Enterprise Scale Landing Zones for a more robust infrastructure.
 
 Remember, Microsoft Azure offers a wealth of resources to guide you on your cloud journey. Whether you're a seasoned IT professional or a startup founder just getting started, Microsoft has the tools and support to help your business thrive.
 
