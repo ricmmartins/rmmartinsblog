@@ -24,6 +24,11 @@ Microsoft Entra ID, previously known as Azure Active Directory (Azure AD), is th
 
 Leveraging Microsoft Entra ID ensures secure and streamlined access to your resources, helping manage user identities efficiently as your organization scales.
 
+References:
+- [What is Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/fundamentals/whatis)
+- [Relationship between Entra ID Tenant and Azure Subscriptions](https://learn.microsoft.com/en-us/entra/fundamentals/how-subscriptions-associated-directory)
+- [Microsoft Entra Roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles#microsoft-entra-roles)
+
 ### Azure Subscriptions
 
 An Azure Subscription is a container that holds your Azure resources. It's linked to an Azure account and is the unit of management, billing, and control for resources in Azure. Key aspects include:
@@ -33,6 +38,15 @@ An Azure Subscription is a container that holds your Azure resources. It's linke
 - **Access Control**: Setting permissions and policies for resource access and management.
 
 You can benefit from multiple subscriptions to separate environments (e.g., development, testing, production) or different projects, ensuring clear boundaries and cost management.
+
+References:
+ - [Subscriptions considerations and recommendations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-subscriptions)
+ - [Create your initial Azure subscriptions](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/initial-subscriptions)
+ - [Create additional subscriptions to scale your environment](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/scale-subscriptions)
+ - [Azure subscription purposes](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/fundamental-concepts#azure-subscription-purposes)
+ - [Azure RBAC roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
+ - [How Entra Roles and Azure RBAC roles are related](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles#how-the-roles-are-related)
+ - [Azure Fundamental Concepts](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/fundamental-concepts)
 
 ### Enterprise Scale Landing Zones
 
@@ -46,6 +60,12 @@ Enterprise Scale Landing Zones are predefined, best-practice architecture recomm
 - **Operations**: Setting up monitoring, backup, and disaster recovery solutions.
 
 Adopting Enterprise Scale Landing Zones from the beginning can help avoid common pitfalls and ensure your Azure environment is ready to scale with your growth.
+
+References:
+- [What is an Azure Landing Zone?](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/)
+- [Landing zone implementation options](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/implementation-options)
+- [Reference Implementation](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/implementation#reference-implementation)
+- [Deploying Azure Landing Zones](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-ALZ)
 
 ## How These Components Interrelate
 
