@@ -469,7 +469,7 @@ Once you're done its a good idea to delete the cluster to ensure that you don't 
 
 ### Adding Quota to ARO account
 
-![ARO Console "My Quotas" page with cursor hovering over "Request Adjustment" pencil for a quota named "Total Regional vCPUs"](../../images/aro-quota-request.png)
+![ARO Console "My Quotas" page with cursor hovering over "Request Adjustment" pencil for a quota named "Total Regional vCPUs"](../assets/images/aro-quota-request.png)
 
 1. [Visit **My Quotas** in the Azure Console](https://portal.azure.com/#view/Microsoft_Azure_Capacity/QuotaMenuBlade/~/myQuotas)
 
