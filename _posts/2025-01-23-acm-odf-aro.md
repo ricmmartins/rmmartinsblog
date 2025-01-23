@@ -17,8 +17,8 @@ A guide to deploying Advanced Cluster Management (ACM) and OpenShift Data Founda
 In today's fast-paced and data-driven world, ensuring the resilience and availability of your applications and data has never been more critical. The unexpected can happen at any moment, and the ability to recover quickly and efficiently is paramount. That's where OpenShift Advanced Cluster Management (ACM) and OpenShift Data Foundation (ODF) come into play. In this guide, we will explore the deployment of ACM and ODF for disaster recovery (DR) purposes, empowering you to safeguard your applications and data across multiple clusters.
 
 **Sample Architecture**
-![Sample architecture](assets/images/sample-architecture.png)
-*Download a [Visio file](assets/images/sample-architecture.vsdx) of this architecture* 
+![Sample architecture](../assets/images/sample-architecture.png)
+*Download a [Visio file](../assets/images/sample-architecture.vsdx) of this architecture* 
 
 **Hub Cluster (East US Region):**
 * This is the central control and management cluster of your multi-cluster environment.
