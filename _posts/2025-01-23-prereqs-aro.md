@@ -1,11 +1,11 @@
 ---
-date: '2023-11-30'
+date: '2025-01-23'
 title: Prerequisites Checklist to Deploy ARO Cluster
 tags: ["ARO"]
 ---
 
 > [!NOTE]  
-> This article was originally published here https://cloud.redhat.com/experts/aro/prereq-list
+> This article was originally published here [https://cloud.redhat.com/experts/aro/prereq-list](https://cloud.redhat.com/experts/aro/prereq-list) on 2023-11-30
 
 Before deploying an ARO cluster, ensure you meet the following prerequisites:
 
