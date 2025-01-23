@@ -5,7 +5,8 @@ tags: ["ARO"]
 ---
 
 > [!NOTE]  
-> This article was originally published here [https://cloud.redhat.com/experts/aro/prereq-list](https://cloud.redhat.com/experts/aro/prereq-list) on 2023-11-30
+> This article was originally published on November 30, 2023, at [https://cloud.redhat.com/experts/aro/prereq-list](https://cloud.redhat.com/experts/aro/prereq-list)
+
 
 Before deploying an ARO cluster, ensure you meet the following prerequisites:
 
