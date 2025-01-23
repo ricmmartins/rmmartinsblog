@@ -1,5 +1,5 @@
 ---
-date: '2025-01-23T18:50:00.0000'
+date: '2025-01-22'
 title: What to consider when using Azure AD as IDP?
 tags: ["Azure", "IDP", "ARO"]
 ---
